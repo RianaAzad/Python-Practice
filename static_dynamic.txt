@@ -1,0 +1,17 @@
+Dynamically Typed language
+Dynamic typing in python
+A language is considered as Dynamically typed language if the variable type of the language is checked at the runtime of the code compilation or code interpretation. In such type of programming languages, we don’t need to initialize a variable with its type. We can declare a variable by writing the name at left and the value at the left of the variable name, Ex Var = 90. Some dynamically typed languages are:
+
+Python
+PHP
+JavaScript
+As the memory allocation and variable checking are done at the runtime of the code, these type of languages are not considered as less optimised than statically typed language.
+
+Statically typed language
+Static typing in python
+In statically typed languages the type of the variable s checked at the compile time of the variable declaration. Statically programming languages check the type of the variable or abject while the code enters the compiler. Unlike dynamically typed languages we need to write the type of the variable during initializing it. Ex in java, int Var = 10. Some statically typed languages are:
+
+Java
+C
+C++
+In Statically typed languages once if a variable is initialized to a data-type it cannot be assigned to the variable of a different type. Statically typed languages are faster than dynamically typed languages.
