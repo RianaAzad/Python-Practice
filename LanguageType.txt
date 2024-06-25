@@ -1,0 +1,49 @@
+Dynamic Languages
+Definition: Dynamic languages are programming languages that execute many common programming behaviors at runtime rather than during compilation. This means that things like type checking, method calls, and variable resolution happen while the program is running.
+
+Key Characteristics:
+
+Dynamic Typing: Variables can change types at runtime. You don't need to declare variable types explicitly.
+Interpreted: Often, dynamic languages are interpreted, meaning they are executed line-by-line by an interpreter rather than being compiled into machine code before execution.
+Flexible and Easy to Use: These languages tend to be more flexible and easier to use for rapid development and prototyping.
+Examples:
+
+Python
+JavaScript
+Ruby
+PHP
+Real-Life Analogy: Imagine a chef who decides on the ingredients and cooking method while cooking. The chef can change ingredients on the fly and doesn't need a fixed recipe before starting.
+
+Compiled Languages
+Definition: Compiled languages are programming languages where the source code is translated into machine code by a compiler before it can be executed. This machine code is a set of instructions that the computer's processor can execute directly.
+
+Key Characteristics:
+
+Static Typing: Variable types are determined at compile time. You must declare variable types explicitly.
+Compilation: The entire code is translated into machine code before execution. This usually results in faster execution because the translation is done beforehand.
+More Optimized: Compiled programs tend to run faster and more efficiently because the compiler can optimize the code for the specific hardware.
+Examples:
+
+C
+C++
+Java (though Java is a bit of a hybrid since it compiles to bytecode, which is then interpreted by the Java Virtual Machine)
+Rust
+Real-Life Analogy: Think of an architect who creates a detailed blueprint before construction begins. The builders follow this blueprint exactly to construct the building. All decisions are made before the building starts.
+
+Key Differences
+Type Checking:
+
+Dynamic Languages: Type checking happens at runtime.
+Compiled Languages: Type checking happens at compile time.
+Execution:
+
+Dynamic Languages: Typically interpreted, meaning code is executed line-by-line.
+Compiled Languages: Code is compiled into machine code before execution, which can then be run directly by the hardware.
+Performance:
+
+Dynamic Languages: Generally slower due to runtime interpretation and type checking.
+Compiled Languages: Generally faster because the code is optimized and directly executable by the machine.
+Development Speed:
+
+Dynamic Languages: Faster for development and prototyping because they are more flexible and require less upfront setup.
+Compiled Languages: Slower to develop but can result in more efficient and performant code.
