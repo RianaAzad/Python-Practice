@@ -54,6 +54,12 @@ tuple2 = tuple(str_data)
 print(tuple1)
 print(tuple2)
 
+# -------- Convert to Dictionary ---------
+tuple3 = ('a', 1), ('b', 2), ('c', 3)
+
+dict1 = dict(tuple3)
+print(dict1)
+
 # -------- Convert to Set ---------
 set1 = set(list1)
 set2 = set(str_data)
@@ -70,3 +76,4 @@ from collections import OrderedDict
 str_data = "Riana"
 ordered_set =  "".join(OrderedDict.fromkeys(str_data))
 print(ordered_set)
+
